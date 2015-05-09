@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 from random import choice, shuffle
 
-WORDLIST_PT = open("wordlist-pt.txt", "r").readlines()
-HEADLINES_FILE = open("headlines-pt.txt", "r").readlines()
-
 
 def get_word_matches(word, lines):
     matches = []
